@@ -29,7 +29,7 @@ a {
 /* ******************* NAVBAR ******************* */
 nav {
   overflow: hidden;
-  background-color: #FFFAE1;
+  background-color: yellow;
   position: fixed;
   width: 100%;
   opacity: 0.9;
@@ -49,10 +49,16 @@ header li a {
   font-weight: bold;
   float: left;
 }
+#logo a:hover{
+  background: green;
+}
+.acceuil a hover{
+  background: yellow;
+}
 /* **************** IMAGE PRINCIPALE ************* */
 #imagePrincipale {
   padding-top: 60px;
-  background: url(media/image-principale.JPG) no-repeat fixed 50% 50%;
+  background: url(image-principale.JPG) no-repeat fixed 50% 50%;
   background-size: cover;
   height: 799px;
 }
@@ -110,23 +116,24 @@ h3 {
 /* **************** TOURISME ********************** */
 #tourisme {
   height: 1400px;
-  background-color: #f1f2f6;
+  background-color: yellow;
   padding: 1px 2%;
 }
 #tourisme h2 {
   padding-top: 60px;
 }
 #ocean {
-  background: url(media/ocean.jpg);
+  background: url(ocean.jpg);
 }
-#chateau {
-  background: url(media/chateau.JPG);
+#chateau{
+  background: url('chateau - Copie.JPG');
+
 }
 #phare {
-  background: url(media/phare.JPG);
+  background: url(phare.JPG);
 }
 #vignoble {
-  background: url(media/vignes.jpg);
+  background: url(vignes.jpg);
 }
 #tourisme li {
   margin: 65px 100px 0 100px;
@@ -139,7 +146,7 @@ h3 {
 #tourisme p {
   height: 45px;
   width: 235px;
-  background-color: #01DF74;
+  background-color: red;
   float:right;
   margin: 50px -180px 0 0;
   font-size: 1.5em;
@@ -190,7 +197,7 @@ button:hover {
   transition: 0.3s ease-in-out;
 }
 #deuxiemeTrait {
-  height: 1px;
+  height: 1px;xxx
   width: 75%;
   background-color: #FFFAE1;
   margin: 60px auto;
@@ -213,7 +220,10 @@ button:hover {
   display: inline-block;
   padding: 0 15px;
   font-size: 1.3em;
-  color: #FFFAE1;
+  color: blue;
+}
+.gy {
+  color: orange;
 }
 #icons a:hover {
   transform: scale(1.5);
