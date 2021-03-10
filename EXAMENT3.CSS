@@ -48,6 +48,7 @@ header li a {
   font-family: 'Dancing Script', cursive;
   font-weight: bold;
   float: left;
+  height:400px;
 }
 #logo a:hover{
   background: blue;
@@ -55,6 +56,8 @@ header li a {
 .acceuil a hover{
   background: yellow;
 }
-.merci{
-  background-color:;
+
+#sonko img{
+  height:35%;
+  font-weight: bolder;
 }
